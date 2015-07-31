@@ -3,9 +3,6 @@
   apt: pkg={{ item }} state=present
   sudo: yes
   with_items:
-    - python
-    - python-dev
-    - python-pip
     - libffi-dev
     - libssl-dev
     - libxml2-dev
